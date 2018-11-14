@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./public/css/style.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="text-white bg-primary text-center">Jvascript DOM</h1>
+        <div class="row">
+            <div class="col-3 bg-primary"><a class="text-white" href="">Exercice 1</a></div>
+            <div class="col-3"><a href="">Exercice 2</a></div>
+            <div class="col-3"><a href="">Exercice 3</a></div>
+            <div class="col-3"><a href="">Exercice 4</a></div>
+            <div class="col-3"><a href="">Exercice 5</a></div>
+            <div class="col-3"><a href="">Exercice 6</a></div>
+        </div>
+    </header>
+    <section class="container bg-secondary p-5">
+        <div class="page1">
+            <h2></h2>
+            <p>liste de propriété et de méthode à retrouver dans la documentation:</p>
+            <li>
+                <ul>innerText</ul>
+                <ul>innerHTML</ul>
+                <ul>querySelector()</ul>
+                <ul>querySelectorAll()</ul>
+                <ul>style</ul>
+                <ul>classList</ul>
+            </li>
+            <p>Changer le contenu du h2 par "le Titre modifié"</p>
+            <p>Changer la couleur du h2 (la couleur que ous voulez)</p>
+            <p>Ajouter une class background bootstrap au h2</p>
+        </div>
+        <div class="page2">
+            <p>Mettre un écouteur sur les boutons nav et changer le panel en conséquence</p>
+        </div>
+        <div class="page3">
+            <h2>welcome <span>inconnu</span></h2>
+            <p>écrivez dans l'input ci-dessous le nom de la personne que vous voules accueillir</p>
+            <p>lorsque vous cliquez sur le couton "go" le nom que vous avez ajouté dans l'input sera alors mis dans le
+                span du h2 et l'input sera alors vidé de tout contenu. Attention, interdiction de toucher à l'html</p>
+            <input type="text">
+            <button>go</button>
+        </div>
+        <div class="page4">
+            <h2>Déplacer les éléments</h2>
+            <div class="row">
+                <div class="col-5 bg-primary p-5"></div>
+                <div class="col-2"></div>
+                <div class="col-5 bg-primary p-5"></div>
+            </div>
+            <button type="button" class="btn btn-warning">change place</button>
+            <button type="button" class="btn btn-success"></button>
+        </div>
+        <div class="page5">
+            <h2>Générer des éléments du DOM</h2>
+            <p>Cliquer sur le couton ci-dessos pour générer des images :</p>
+            <button type="button" class="btn btn-success">Image !</button>
+        </div>
+        <div class="page6">
+            <h2>Création calculatrice</h2>
+            <h2>Niveau 1</h2>
+            <input type="text">+<input type="text"><button>=</button><span></span>
+            <h2>Niveau 2</h2>
+            <div class="row">
+                <div class="col-3 bg-dark row p-3">
+                    <p class="col-12"></p>
+                    <input type="text" class="col-12">
+                    <button class="col-3">1</button>
+                    <button class="col-3">2</button>
+                    <button class="col-3">3</button>
+                    <button class="col-3">+</button>
+                    <button class="col-3">4</button>
+                    <button class="col-3">5</button>
+                    <button class="col-3">6</button>
+                    <button class="col-3">-</button>
+                    <button class="col-3">7</button>
+                    <button class="col-3">8</button>
+                    <button class="col-3">9</button>
+                    <button class="col-3">*</button>
+                    <button class="col-3">C</button>
+                    <button class="col-3">0</button>
+                    <button class="col-3">=</button>
+                    <button class="col-3">/</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <script src="./public/js/app.js" type="module"></script>
+</body>
+
+</html>
