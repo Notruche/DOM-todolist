@@ -11,6 +11,12 @@ function page1() {
     document.querySelectorAll(".col-3")[2].classList.remove("bg-primary")
     document.querySelectorAll(".col-3")[3].classList.remove("bg-primary")
     document.querySelectorAll(".col-3")[4].classList.remove("bg-primary")
+    document.querySelectorAll(".nav")[0].classList.add("bg-primary")
+    document.querySelectorAll(".nav")[5].classList.remove("bg-primary")
+    document.querySelectorAll(".nav")[1].classList.remove("bg-primary")
+    document.querySelectorAll(".nav")[2].classList.remove("bg-primary")
+    document.querySelectorAll(".nav")[3].classList.remove("bg-primary")
+    document.querySelectorAll(".nav")[4].classList.remove("bg-primary")
 }
 function page2() {
     document.querySelector(".page1").style.display = "none"
@@ -25,6 +31,12 @@ function page2() {
     document.querySelectorAll(".col-3")[2].classList.remove("bg-primary")
     document.querySelectorAll(".col-3")[3].classList.remove("bg-primary")
     document.querySelectorAll(".col-3")[4].classList.remove("bg-primary")
+    document.querySelectorAll(".nav")[1].classList.add("bg-primary")
+    document.querySelectorAll(".nav")[5].classList.remove("bg-primary")
+    document.querySelectorAll(".nav")[0].classList.remove("bg-primary")
+    document.querySelectorAll(".nav")[2].classList.remove("bg-primary")
+    document.querySelectorAll(".nav")[3].classList.remove("bg-primary")
+    document.querySelectorAll(".nav")[4].classList.remove("bg-primary")
 }
 function page3() {
     document.querySelector(".page1").style.display = "none"
@@ -39,6 +51,12 @@ function page3() {
     document.querySelectorAll(".col-3")[5].classList.remove("bg-primary")
     document.querySelectorAll(".col-3")[3].classList.remove("bg-primary")
     document.querySelectorAll(".col-3")[4].classList.remove("bg-primary")
+    document.querySelectorAll(".nav")[2].classList.add("bg-primary")
+    document.querySelectorAll(".nav")[5].classList.remove("bg-primary")
+    document.querySelectorAll(".nav")[1].classList.remove("bg-primary")
+    document.querySelectorAll(".nav")[0].classList.remove("bg-primary")
+    document.querySelectorAll(".nav")[3].classList.remove("bg-primary")
+    document.querySelectorAll(".nav")[4].classList.remove("bg-primary")
 }
 function page4() {
     document.querySelector(".page1").style.display = "none"
@@ -53,6 +71,12 @@ function page4() {
     document.querySelectorAll(".col-3")[2].classList.remove("bg-primary")
     document.querySelectorAll(".col-3")[5].classList.remove("bg-primary")
     document.querySelectorAll(".col-3")[4].classList.remove("bg-primary")
+    document.querySelectorAll(".nav")[3].classList.add("bg-primary")
+    document.querySelectorAll(".nav")[5].classList.remove("bg-primary")
+    document.querySelectorAll(".nav")[1].classList.remove("bg-primary")
+    document.querySelectorAll(".nav")[2].classList.remove("bg-primary")
+    document.querySelectorAll(".nav")[0].classList.remove("bg-primary")
+    document.querySelectorAll(".nav")[4].classList.remove("bg-primary")
 }
 function page5() {
     document.querySelector(".page1").style.display = "none"
@@ -67,6 +91,12 @@ function page5() {
     document.querySelectorAll(".col-3")[2].classList.remove("bg-primary")
     document.querySelectorAll(".col-3")[3].classList.remove("bg-primary")
     document.querySelectorAll(".col-3")[5].classList.remove("bg-primary")
+    document.querySelectorAll(".nav")[4].classList.add("bg-primary")
+    document.querySelectorAll(".nav")[5].classList.remove("bg-primary")
+    document.querySelectorAll(".nav")[1].classList.remove("bg-primary")
+    document.querySelectorAll(".nav")[2].classList.remove("bg-primary")
+    document.querySelectorAll(".nav")[3].classList.remove("bg-primary")
+    document.querySelectorAll(".nav")[0].classList.remove("bg-primary")
 }
 function page6() {
     document.querySelector(".page1").style.display = "none"
@@ -81,6 +111,12 @@ function page6() {
     document.querySelectorAll(".col-3")[2].classList.remove("bg-primary")
     document.querySelectorAll(".col-3")[3].classList.remove("bg-primary")
     document.querySelectorAll(".col-3")[4].classList.remove("bg-primary")
+    document.querySelectorAll(".nav")[5].classList.add("bg-primary")
+    document.querySelectorAll(".nav")[0].classList.remove("bg-primary")
+    document.querySelectorAll(".nav")[1].classList.remove("bg-primary")
+    document.querySelectorAll(".nav")[2].classList.remove("bg-primary")
+    document.querySelectorAll(".nav")[3].classList.remove("bg-primary")
+    document.querySelectorAll(".nav")[4].classList.remove("bg-primary")
 }
 
 document.querySelectorAll('button')[0].addEventListener('click', page1)
